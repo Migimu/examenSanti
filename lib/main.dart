@@ -83,7 +83,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 shrinkWrap: true,
                 children: List.generate(_counter, (index) {
                   var newIndex = index + 1;
-                  print(newIndex % 3);
                   if ((newIndex % 3) == 0 && (newIndex % 5) == 0) {
                     return Container(
                       decoration: BoxDecoration(
